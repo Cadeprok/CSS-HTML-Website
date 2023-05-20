@@ -163,3 +163,9 @@ a:hover {
     vertical-align: middle;
     border: solid 2px black;
 }
+/* congratulations message at end of the course */
+.congrats{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
