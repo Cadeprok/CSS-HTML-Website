@@ -126,3 +126,40 @@ a:hover {
     text-align: center;
     font-size: 18px;
 }
+
+/* These classes is for css.html --> instead of making a picture */
+.codeformat{
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+.tab {
+    margin-left:40px;
+}
+
+/* Class to center P */
+.pcenter {
+    text-align: center;
+    font-size: 22px;
+}
+
+.imgpadding {
+    padding: 5px;
+}
+
+/* Classes for centering multiple divs next to each other */
+.parent {
+    margin: 1rem;
+    text-align: center;
+}
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.child1 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    border: solid 2px black;
+}
