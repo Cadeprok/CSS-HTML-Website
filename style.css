@@ -1,7 +1,7 @@
 main {
     max-width: 100%;
     width: 1200px;
-    margin: 80px auto;
+    margin: 60px auto;
     padding: 0 20px;
 }
 
@@ -48,11 +48,9 @@ header{
 nav {
     background-color: gray;
     padding: 15px;
-    /* position: sticky; */
-    top: 100px; /* You will need to edit this more */
 }
 nav ul{
-    white-space: nowrap; /*Sets all 4 selections onto navbar */
+    white-space: nowrap; /*Sets all 3 selections onto navbar */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -209,7 +207,7 @@ a:hover {
         padding: 10px;
     }
 
-    
+
     .container {
         display:contents;
         justify-content: center;
@@ -316,11 +314,9 @@ a:hover {
     nav {
         background-color: gray;
         padding: 15px;
-        /* position: sticky; */
-        top: 100px; /* You will need to edit this more */
     }
     nav ul{
-        white-space: nowrap; /*Sets all 4 selections onto navbar */
+        white-space: nowrap; /*Sets all 3 selections onto navbar */
         margin: 0 auto;
     }
     nav li{
