@@ -187,10 +187,6 @@ a:hover {
         }
 }
 
-
-
-
-
 @media screen and (max-width: 1000px){
     
     header{
@@ -243,6 +239,19 @@ a:hover {
     
     .pformat {
         font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 450px){
+    main {
+        max-width: 100%;
+        width: 1200px;
+        margin: 90px auto;
+        padding: 0 20px;
+    }
+    .pformat {
+        font-size: 8px;
+
     }
     
 }
