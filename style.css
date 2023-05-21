@@ -78,12 +78,6 @@ nav li a{
 }
 
 
-.nextpage0{
-    text-align: right;
-    text-decoration: none;
-
-}
-
 /* Previous and Next Button Design */
 
 a {
@@ -96,11 +90,13 @@ a:hover {
     color: white;
 }
 .prev {
-    background: #f1f1f1;
+    background-color: #164285;
+    color: black;
 }
 .next{
-    background-color: #04AA6D;
+    background-color: #164285;
     color: black;
+    text-align: right;
 }
 .round {
     border-radius: 50%;
