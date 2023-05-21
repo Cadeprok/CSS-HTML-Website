@@ -185,10 +185,54 @@ a:hover {
         top: 0; 
         z-index: 1;
         }
+        .container {
+            display:contents;
+            justify-content: center;
+            align-items: center;    
+        }
+        .center {
+            width: 40%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+        }
+
+}
+
+
+@media screen and (max-width: 1200px){
+    .pformat {
+        font-size: 16px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    
+    .container {
+        display:contents;
+        justify-content: center;
+        align-items: center;    
+    }
+    .center {
+        width: 40%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
 }
 
 @media screen and (max-width: 1000px){
-    
+    main {
+        max-width: 100%;
+        width: 1200px;
+        margin: 80px auto;
+        padding: 0 0px;
+    }
+
     header{
         width: 100%;
         font-size: 30px;
@@ -203,8 +247,18 @@ a:hover {
         justify-content: center;
         align-items: center;    
     }
+    .pformat {
+        font-size: 16px;
+        margin: 10px;
+    }
 }
 @media screen and (max-width: 700px){
+    main {
+        max-width: 100%;
+        width: 1200px;
+        margin: 80px auto;
+        padding: 0 0px;
+    }
     header{
         width: 100%;
         font-size: 25px;
@@ -231,6 +285,10 @@ a:hover {
         margin-right: auto;
         padding: 5px;
     }
+    .pformat {
+        font-size: 15px;
+        margin: 5px;
+    }
     
 }
 
@@ -238,20 +296,40 @@ a:hover {
 @media screen and (max-width: 560px){
     
     .pformat {
-        font-size: 12px;
+        font-size: 16px;
     }
     
 }
+
 @media screen and (max-width: 450px){
     main {
         max-width: 100%;
         width: 1200px;
         margin: 90px auto;
-        padding: 0 20px;
+        padding: 0 3px;
     }
     .pformat {
-        font-size: 8px;
-
+        font-size: 13px;
+        margin: 5px;
     }
-    
+
+    nav {
+        background-color: gray;
+        padding: 15px;
+        /* position: sticky; */
+        top: 100px; /* You will need to edit this more */
+    }
+    nav ul{
+        white-space: nowrap; /*Sets all 4 selections onto navbar */
+        margin: 0 auto;
+    }
+    nav li{
+        width: 30%;
+        display: inline-block;
+        font-size: 24px;
+    } 
+    nav li a{
+        text-decoration: none;
+        color:#0366fc;
+    } 
 }
